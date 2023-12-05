@@ -1,0 +1,4 @@
+[submodule "src/api-client/github/local-clone/feh-assets-json"]
+	path = src/api-client/github/local-clone/feh-assets-json
+	url = https://github.com/HertzDevil/feh-assets-json
+	branch = book7-2023
