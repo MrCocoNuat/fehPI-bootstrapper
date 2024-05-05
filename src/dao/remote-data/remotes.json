@@ -1,0 +1,11 @@
+{
+    "feh-assets-json" : {
+        "repoOwner": "HertzDevil",
+        "repoName": "feh-assets-json",
+        "branch": "-2023",
+        "rawUrl": "https://raw.githubusercontent.com/HertzDevil/feh-assets-json"
+    },
+    "feh-wiki": {
+        "baseUrl": "https://feheroes.fandom.com/api.php"
+    }
+}

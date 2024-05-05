@@ -1,0 +1,26 @@
+{
+  "name": "fehpi-bootstrapper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Initialize the remote state for github.com/mrcoconuat/fehPI",
+  "main": "src/main.ts",
+  "scripts": {
+    "local": "USE_LOCAL=true npx tsx src/main.ts",
+    "remote": "USE_LOCAL=false npx tsx src/main.ts"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "dpdm": "^3.14.0"
+  },
+  "dependencies": {
+    "@vercel/kv": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "enum-for": "^0.0.6",
+    "node-fetch": "^3.3.2",
+    "octokit": "^3.1.2",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.2"
+  }
+}
